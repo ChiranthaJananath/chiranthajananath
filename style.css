@@ -365,6 +365,24 @@ footer {
         color: var(--primary);
         text-decoration: underline;
     }
+
+    .pdf-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .pdf-link-btn:hover {
+        background-color: #3b82f6;
+        transform: translateY(-2px);
+    }
 }
 
 @media (max-width: 480px) {
