@@ -354,6 +354,17 @@ footer {
     .grid {
         grid-template-columns: 1fr;
     }
+
+    .pub-link {
+    color: var(--dark);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    }
+
+    .pub-link:hover {
+        color: var(--primary);
+        text-decoration: underline;
+    }
 }
 
 @media (max-width: 480px) {
